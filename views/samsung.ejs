@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">.
+<head>
+  <title></title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scaled=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+  <style>
+
+    .btn-primary {
+      margin-left: 170px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    color: white;
+    background-color: #56CCF2;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+    width: 140px;
+}
+
+.btn-primary:hover {
+    background-color: #2D9CDB;
+}
+
+     #yr{
+    flex-grow: 1;
+    color: #333;
+}
+    #br {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin-left: 50px;
+    color: white;
+}
+ #br1 {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin-left: 430px;
+    color: white;
+}
+#ID{
+  color: green;
+}
+    #cmp {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+    .content-section {
+    margin: 1em;
+}
+    .section-header {
+    font-family: "Metal Mania";
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+    #p {
+      background-color: #34495e;
+      border-radius: 10px;
+      width: 1500px;
+    margin: 30px;
+    margin-left: 120px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+  #nav{
+    margin-top: -20px;
+  }
+  #h1{
+    color: chocolate;
+  }
+
+  </style>
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/interview.js" defer></script>
+</head>
+<body id="body">
+  <nav id="nav" class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <h1 id="h1">Fun Reading</h1>
+    </div>
+  </div>
+</nav>
+
+<section class="container content-section">
+            <h2 class="section-header">INTERVIEW EXPERIENCE</h2><br><br><br>
+            <div class="row">
+                <% items.samsung.forEach(function(item){ %>
+      <div id="p">
+      <b id="br1">Name: <%= item.name %></b>
+      <b id="br1">Branch: <%= item.branch %></b>
+      <b id="br1">Verdict: <%= item.verdict %></b><br>
+      <b id="br">ONLINE ROUND:</b><br>
+      <b id="t"><%= item.o %></b><br>
+      <b id="br">ROUND1:</b><br>
+      <b id="t"><%= item.r1 %></b><br>
+      <b id="br">ROUND2:</b><br>
+      <b id="t"><%= item.r2 %></b><br>
+      <b id="br">ROUND3:</b><br>
+      <b id="t"><%= item.r3 %></b><br>
+      <b id="br">TIPS:</b><br>
+      <b id="t"><%= item.t %></b><br>
+      </div>
+                <% }) %>
+            </div><br><br><br><br>
+        </section>
+</body>
+</html>

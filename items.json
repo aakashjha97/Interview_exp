@@ -1,0 +1,201 @@
+{
+  "company": [
+    {
+      "id": 0,
+      "company": "SpringBoard",
+      "branch": "CS",
+      "year": 2019,
+      "CTC": "19 LPA"
+    },
+    {
+      "id": 1,
+      "company": "Inovaccer",
+      "branch": "CS",
+      "year": 2019,
+      "CTC":"20 LPA"
+    },
+    {
+      "id": 2,
+      "company": "OYO",
+      "branch": "CS, ECE",
+      "year": 2019,
+      "CTC":"10.5 LPA"
+    },
+    {
+      "id": 3,
+      "company": "Samsung",
+      "branch": "CS, ECE, EE",
+      "year": 2019,
+      "CTC":"12 LPA"
+    },
+    {
+      "id": 4,
+      "company": "COMVIVA",
+      "branch": "CS, ECE, EE",
+      "year": 2019,
+      "CTC":"6.63 LPA"
+    },
+    {
+      "id": 5,
+      "company": "UPTUM",
+      "branch": "CS, ECE, EE",
+      "year": 2019,
+      "CTC":"13.17 LPA"
+    }
+  ],
+  "springboard":[
+    {
+      "id":0,
+      "name":"Chirag Kausik",
+      "branch":"CS",
+      "verdict":"Selected",
+      "o":"There were two questions",
+      "r1":"",
+      "r2":"",
+      "r3":"",
+      "t":""
+    },
+    {
+      "id":1,
+      "name":"PrithiPal",
+      "branch":"CS",
+      "verdict":"Selected",
+      "o":"",
+      "r1":"",
+      "r2":"",
+      "r3":"",
+      "t":""
+    }
+  ],
+  "inovaccer":[
+    {
+      "id":0,
+      "name":"Zain",
+      "branch":"CS",
+      "verdict":"Selected",
+      "o":"",
+      "r1":"",
+      "r2":"",
+      "r3":"",
+      "t":""
+    },
+    {
+      "id":1,
+      "name":"Arsil",
+      "branch":"CS",
+      "verdict":"Selected",
+      "o":"",
+      "r1":"",
+      "r2":"",
+      "r3":"",
+      "t":""
+    },
+    {
+      "id":1,
+      "name":"Bhuvnesh sharma",
+      "branch":"CS",
+      "verdict":"Selected",
+      "o":"",
+      "r1":"",
+      "r2":"",
+      "r3":"",
+      "t":""
+    }
+  ],
+  "oyo":[
+    {
+      "id":0,
+      "name":"Salman Khan",
+      "branch":"CS",
+      "verdict":"Selected",
+      "o":"",
+      "r1":"",
+      "r2":"",
+      "r3":"",
+      "t":""
+    },
+    {
+      "id":1,
+      "name":"Shadma",
+      "branch":"CS",
+      "verdict":"Selected",
+      "o":"",
+      "r1":"",
+      "r2":"",
+      "r3":"",
+      "t":""
+    }
+  ],
+  "samsung":[
+    {
+      "id":0,
+      "name":"Aditya anand thakur",
+      "branch":"CS",
+      "verdict":"Selected",
+      "o":"",
+      "r1":"",
+      "r2":"",
+      "r3":"",
+      "t":""
+    },
+    {
+      "id":1,
+      "name":"Yatin",
+      "branch":"CS",
+      "verdict":"Selected",
+      "o":"",
+      "r1":"",
+      "r2":"",
+      "r3":"",
+      "t":""
+    }
+  ],
+  "comviva":[
+    {
+      "id":0,
+      "name":"Akash Jha",
+      "branch":"CS",
+      "verdict":"Selected",
+      "o":"",
+      "r1":"",
+      "r2":"",
+      "r3":"",
+      "t":""
+    },
+    {
+      "id":1,
+      "name":"Aditya anand thakur",
+      "branch":"CS",
+      "verdict":"Selected",
+      "o":"",
+      "r1":"",
+      "r2":"",
+      "r3":"",
+      "t":""
+    }
+  ],
+  "optum":[
+    {
+      "id":0,
+      "name":"Juned Ragib",
+      "branch":"CS",
+      "verdict":"Selected",
+      "o":"",
+      "r1":"",
+      "r2":"",
+      "r3":"",
+      "t":""
+    },
+    {
+      "id":1,
+      "name":"Adnan Khan",
+      "branch":"CS",
+      "verdict":"Selected",
+      "o":"",
+      "r1":"",
+      "r2":"",
+      "r3":"",
+      "t":""
+    }
+  ]
+}
